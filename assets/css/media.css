@@ -1,0 +1,341 @@
+@media(max-width:768px) {
+
+    .admin-img,
+    .fa-language,
+    .fa-bars {
+        display: block;
+    }
+
+    .log-sm {
+        display: block;
+    }
+
+    .fa-id-badge {
+        font-size: 1.5rem;
+        color: var(--icnblue1);
+    }
+
+    .search,
+    .log-in-out {
+        display: none;
+    }
+
+    .admin-img {
+        border-radius: 50%;
+    }
+
+    .user {
+        display: none;
+    }
+
+    aside {
+        display: none;
+        transition: none;
+    }
+
+    header {
+        margin-left: 0 !important;
+        padding-right: 10px;
+    }
+
+    main {
+        margin-left: 0 !important;
+    }
+
+    .main-content {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto auto 350px 350px 350px 450px 350px 350px auto auto;
+    }
+
+    .dashboard-students {
+        grid-column: 1 / span 6;
+        flex-direction: column;
+    }
+
+    .dashboard-teachers {
+        grid-column: 7 / span 6;
+        flex-direction: column;
+    }
+
+    .dashboard-parents {
+        grid-column: 1 / span 6;
+        flex-direction: column;
+    }
+
+    .dashboard-earnings {
+        grid-column: 7 / span 6;
+        flex-direction: column;
+    }
+
+    .earnings-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .expenses-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .students-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .event-calender {
+        grid-column: 1 / span 12;
+    }
+
+    .branches {
+        grid-column: 1 / span 12;
+    }
+
+    .notice-board {
+        grid-column: 1 / span 12;
+    }
+
+    .facebook-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .twitter-handle {
+        grid-column: 7 / span 6;
+    }
+
+    .gplus-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .linkedin-handle {
+        grid-column: 7 / span 6;
+    }
+}
+
+@media(min-width:768px) {
+    aside {
+        display: block !important;
+    }
+
+    main {
+        margin-left: 230px;
+    }
+
+    header {
+        margin-left: 230px;
+        padding: 10px;
+    }
+
+    .search {
+        display: block;
+    }
+
+    .logo-img-main {
+        display: none;
+    }
+
+    .language {
+        display: flex;
+    }
+
+    .profile {
+        display: flex;
+    }
+
+    .log-in-out {
+        display: block;
+    }
+
+    .headerbar {
+        display: none;
+    }
+
+    .sm-tglr {
+        display: none;
+    }
+
+    .main-content {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 130px 130px 500px 500px 500px 500px 600px 600px auto auto
+    }
+
+    .dashboard-students {
+        grid-column: 1 / span 6;
+    }
+
+    .dashboard-teachers {
+        grid-column: 7 / span 6;
+    }
+
+    .dashboard-parents {
+        grid-column: 1 / span 6;
+    }
+
+    .dashboard-earnings {
+        grid-column: 7 / span 6;
+    }
+
+    .earnings-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .expenses-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .students-graph {
+        grid-column: 1 / span 12;
+    }
+
+    .event-calender {
+        grid-column: 1 / span 12;
+    }
+
+    .branches {
+        grid-column: 1 / span 12;
+    }
+
+    .notice-board {
+        grid-column: 1 / span 12;
+    }
+
+    .facebook-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .twitter-handle {
+        grid-column: 7 / span 6;
+    }
+
+    .gplus-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .linkedin-handle {
+        grid-column: 7 / span 6;
+    }
+}
+
+@media(min-width:992px) {
+    .main-content {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 180px 180px 500px 500px 500px auto auto;
+    }
+
+    .dashboard-students {
+        grid-column: 1 / span 6;
+    }
+
+    .dashboard-teachers {
+        grid-column: 7 / span 6;
+    }
+
+    .dashboard-parents {
+        grid-column: 1 / span 6;
+    }
+
+    .dashboard-earnings {
+        grid-column: 7 / span 6;
+    }
+
+    .earnings-graph {
+        grid-column: 1 / span 6;
+    }
+
+    .expenses-graph {
+        grid-column: 7 / span 6;
+    }
+
+    .students-graph {
+        grid-column: 1 / span 6;
+    }
+
+    .event-calender {
+        grid-column: 7 / span 6;
+    }
+
+    .branches {
+        grid-column: 1 / span 6;
+    }
+
+    .notice-board {
+        grid-column: 7 / span 6;
+    }
+
+    .facebook-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .twitter-handle {
+        grid-column: 7 / span 6;
+    }
+
+    .gplus-handle {
+        grid-column: 1 / span 6;
+    }
+
+    .linkedin-handle {
+        grid-column: 7 / span 6;
+    }
+}
+
+@media(min-width:1200px) {
+    .main-content {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 149px 520px 490px auto;
+    }
+
+    .dashboard-students {
+        grid-column: 1 / span 3;
+    }
+
+    .dashboard-teachers {
+        grid-column: 4 / span 3;
+    }
+
+    .dashboard-parents {
+        grid-column: 7 / span 3;
+    }
+
+    .dashboard-earnings {
+        grid-column: 10 / span 3;
+    }
+
+    .earnings-graph {
+        grid-column: 1 / span 6;
+    }
+
+    .expenses-graph {
+        grid-column: 7 / span 3;
+    }
+
+    .students-graph {
+        grid-column: 10 / span 3;
+    }
+
+    .event-calender {
+        grid-column: 1 / span 4;
+    }
+
+    .branches {
+        grid-column: 5 / span 4;
+    }
+
+    .notice-board {
+        grid-column: 9 / span 4;
+    }
+
+    .facebook-handle {
+        grid-column: 1 / span 3;
+    }
+
+    .twitter-handle {
+        grid-column: 4 / span 3;
+    }
+
+    .gplus-handle {
+        grid-column: 7 / span 3;
+    }
+
+    .linkedin-handle {
+        grid-column: 10 / span 3;
+    }
+}
+
+@media(min-width:1400px) {}
