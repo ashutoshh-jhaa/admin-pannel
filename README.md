@@ -13,7 +13,7 @@ This dashboard offers a modern and responsive interface to streamline administra
 - **Interactive Elements**: Engage with dynamic features powered by jQuery.
 
 ## 🌐 Live Preview
-Experience the dashboard firsthand! [Live Preview Here](https://dev-aashutosh.github.io/admin-pannel/)
+Experience the dashboard firsthand! [Live Preview Here](https://ashutoshh-jhaa.github.io/admin-pannel/)
 
 ## 🤝 Contributing
 Contributions are welcome! Share your ideas, suggestions, or bug fixes through pull requests.
